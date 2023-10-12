@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARTH PATEL</title>
+    <!-- Link to Bootstrap CSS and JavaScript from the official CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Add custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style the header */
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar-brand {
+            color: #fff;
+        }
+
+        .navbar-brand:hover {
+            color: #FF5733; /* Change the hover color */
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #FF5733; /* Change the hover color */
+        }
+
+        /* Style the Home section */
+        #home {
+            background-image: url('background.jpg'); /* Add a background image */
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        /* Style the About section */
+        #about {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        /* Style the Experience section */
+        #experience {
+            padding: 20px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .card-title {
+            color: #333;
+        }
+
+        /* Style the Skills section */
+        #skills {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .progress-bar {
+            background-color: #FF5733;
+        }
+
+        /* Style the Contact section */
+        #contact {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Rahi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="py-5 text-center">
+    <div class="container">
+        <img src="IMG_20230206_130617.jpg" alt="Profile Picture" class="img-fluid rounded-circle mb-4" width="200">
+        <h1>Patel Rahi Vasantbhai</h1>
+        <p>Web Developer</p>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am an 18-year-old male IT student from India, specifically from the state of Gujarat. My name is Rahi, and I am passionate about the world of technology and computers.As an IT student, I am currently pursuing my education in the field of Information Technology. This field excites me because it offers endless opportunities for learning and innovation. I am eager to explore various aspects of IT, from programming and software development to network management and cybersecurity.In addition to my studies, I have a variety of interests and hobbies. I love coding and enjoy working on programming projects. Whether it's creating a new software application, solving coding challenges, or building websites, I find the world of programming to be both challenging and rewarding.I also have a keen interest in keeping up with the latest technology trends and gadgets. Staying up-to-date with the ever-evolving tech landscape is something that I find fascinating.
+
+        </p>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="py-5">
+    <div class="container">
+        <h2>Experience</h2>
+        <!-- Use Bootstrap's card or list group components for work experience -->
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">WEB DEVLOPPER</h5>
+                <p class="card-text">TCS</p>
+                <p class="card-text">3 YEARS</p>
+                <p class="card-text">MANAGER</p>
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="py-5">
+    <div class="container">
+        <h2>Education</h2>
+        <!-- List your educational background here -->
+        <ul>
+            <li>BTECH(IT)-CSPIT</li>
+            
+        </ul>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2>Skills</h2>
+        <!-- Showcase your skills using Bootstrap's progress bars or badges -->
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+                 aria-valuemax="100">Technical Skills (80%)
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0"
+                 aria-valuemax="100">Soft Skills (70%)
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2>Contact</h2>
+        <!-- Create a contact form using Bootstrap's form components -->
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Link to Bootstrap JavaScript from the official CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
